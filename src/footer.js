@@ -2,7 +2,7 @@
 function footer(){
     const footer = document.createElement('footer')
     const para = document.createElement('p')
-    para.textContent='this is my footer'
+    para.innerHTML='<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> BIROUE ISAAC All Rights Reserved</p>'
     footer.classList.add('footer')
     footer.appendChild(para)
     return footer
