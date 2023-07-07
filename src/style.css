@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    background-color: #ffde73;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.footer{
+    background-color: #ffde73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 6vh;
+    width: 100%;
+}
+.home{
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffde73;
+}
+.home div{
+    border: 5px solid #c16a08;
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffc60b;
+}
+.contact{
+    border: 1px solid #c16a08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #ffde73;
+    margin: 10px auto;
+
+}
+.contact div{
+    border: 5px solid #c16a08;
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffc60b;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #c16a08;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #ffde73;
+    margin: 10px auto;
+    align-items: center;
+}
+.menu p {
+    border: 5px solid #c16a08;
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #ffc60b;
+}
+.home h1, .menu h1, .contact h1{
+    text-transform: uppercase;
+    border: 1px solid #ffde73;
+    margin: 50px;
+}
+.home h3, .menu h3, .contact h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
