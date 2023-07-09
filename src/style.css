@@ -84,11 +84,11 @@ ul li{
     width: 90%;
     margin: auto;
     border: 1px solid #c16a08;
-    height: 100vh;
     border-radius: 10px;
     background-color: #ffde73;
     margin: 10px auto;
     align-items: center;
+    height: 200vh;
 }
 .menu p {
     border: 5px solid #c16a08;
@@ -111,4 +111,8 @@ ul li{
 }
 iframe{
     width: 100%;
+}
+img{
+    width: 100%;
+    padding: 10px;
 }
