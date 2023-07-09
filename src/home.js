@@ -35,6 +35,7 @@ function createhome(){
     const paradiv3 = document.createElement('p')
     paradiv3.textContent='123 Forest Drive, Forestville, Maine'
     const paradiv4 = document.createElement('div')
+    paradiv4.classList.add('frame')
     paradiv4.innerHTML=`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13292.94349687302!2d-7.557224000000001!3d33.59918390000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7ccf77c009ce3%3A0x89bdfd73a580b00b!2sAmoud%20P%C3%A2tisserie%20A%C3%AFn%20Sebaa!5e0!3m2!1sfr!2sma!4v1688901444369!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
     const titre4 = document.createElement('h3')
     titre4.textContent='Location'

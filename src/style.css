@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .header{
     display: flex;
     background-color: #ffde73;
@@ -33,9 +33,9 @@ ul li{
     align-items: center;
     justify-content: center;
     color: black;
-    height: 6vh;
     width: 100%;
     border-top: 1px solid burlywood;
+    padding: 20px;
 }
 .home{
     height: 130vh;
@@ -66,13 +66,12 @@ ul li{
     background-color: #ffde73;
     margin: 10px auto;
     justify-content: center;
-
 }
 .contact div{
     width: 50%;
     text-align: center;
     margin: 10px;
-    border-radius: 30px;
+    border-radius: 5px;
     padding-top: 30px;
     padding-bottom: 10px;
     background-color: #ffc60b;
@@ -112,7 +111,6 @@ ul li{
 }
 iframe{
     width: 100%;
-    margin: auto;
 }
 img{
     width: 100%;
@@ -123,13 +121,14 @@ body {
 }
 ul li:hover{
     text-decoration: underline;
-
-}
-.home:last-child{
-    margin: auto;
 }
 footer > p > p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
