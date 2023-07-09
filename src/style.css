@@ -70,9 +70,9 @@ ul li{
 .contact div{
     width: 50%;
     text-align: center;
-    margin: 50px;
-    border-radius: 10px;
-    padding-top: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    padding-top: 30px;
     padding-bottom: 10px;
     background-color: #ffc60b;
 }
@@ -107,6 +107,7 @@ ul li{
 }
 iframe{
     width: 100%;
+    margin: auto;
 }
 img{
     width: 100%;
@@ -118,4 +119,7 @@ body {
 ul li:hover{
     text-decoration: underline;
 
+}
+.home:last-child{
+    margin: auto;
 }
