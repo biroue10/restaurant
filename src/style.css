@@ -127,8 +127,3 @@ footer > p > p{
     align-items: center;
     justify-content: center;
 }
-.frame{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
