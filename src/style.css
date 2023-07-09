@@ -46,7 +46,6 @@ ul li{
     background-color: #ffde73;
 }
 .home div{
-    border: 5px solid #c16a08;
     width: 80%;
     text-align: center;
     margin: 50px;
@@ -69,7 +68,6 @@ ul li{
 
 }
 .contact div{
-    border: 5px solid #c16a08;
     width: 50%;
     text-align: center;
     margin: 50px;
@@ -91,18 +89,15 @@ ul li{
     height: 200vh;
 }
 .menu p {
-    border: 5px solid #c16a08;
     width: 50%;
     text-align: center;
     margin: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    background-color: #ffc60b;
 }
 .home h1, .menu h1, .contact h1{
     text-transform: uppercase;
-    border: 1px solid #ffde73;
     margin: 50px;
 }
 .home h3, .menu h3, .contact h3{
