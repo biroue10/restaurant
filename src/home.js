@@ -8,7 +8,7 @@ function createhome(){
     const titre = document.createElement('h1')
     const div1 = document.createElement('div')
     const paradiv1 = document.createElement('p')
-    paradiv1.textContent='Beary\'s has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.'
+    paradiv1.textContent='Etiam dapibus eget felis eget dictum. Duis dictum facilisis urna, id ultricies nunc lobortis a. Fusce eget augue vitae enim blandit egestas. Donec sed elit enim. Quisque magna enim, interdum in velit quis, consequat hendrerit ex. Sed tincidunt velit congue aliquet eleifend. Curabitur ultricies, erat vitae commodo commodo, tellus nisl vulputate nunc, id elementum dolor augue a lacus. Sed risus magna, viverra ac ligula quis, lobortis commodo diam. Fusce id luctus erat, et dapibus tortor. Fusce ut purus ipsum. Nam dignissim sem sit amet odio sodales, id maximus massa fermentum. Sed elit ligula, rhoncus id sollicitudin id, scelerisque vel arcu. Donec felis neque, condimentum quis lobortis vitae, bibendum accumsan sapien.'
     const titre3 = document.createElement('h3')
     titre3.textContent='Who are we?'
     div1.append(titre3,paradiv1)
