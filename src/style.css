@@ -11,9 +11,11 @@
     background-color: #ffde73;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px solid burlywood;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    border-bottom: 3px solid burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-size: 1.5rem;
 }
 ul{
     display: flex;
@@ -34,8 +36,9 @@ ul li{
     justify-content: center;
     color: black;
     width: 100%;
-    border-top: 1px solid burlywood;
+    border-top: 3px solid burlywood;
     padding: 20px;
+    font-size: 1.2rem;
 }
 .home{
     height: 130vh;
@@ -61,7 +64,7 @@ ul li{
     flex-direction: column;
     align-items: center;
     width: 90%;
-    height: 80vh;
+    height: 85vh;
     border-radius: 10px;
     background-color: #ffde73;
     margin: 10px auto;
@@ -122,8 +125,9 @@ body {
 ul li:hover{
     text-decoration: underline;
 }
-footer > p > p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+iframe{
+    margin-top: 10px;
+}
+body{
+    padding-bottom: 0;
 }
