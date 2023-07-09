@@ -14,13 +14,13 @@ function createmenu(){
     titre.textContent='our menu'
     menu2.classList.add('menu')
     const para1 = document.createElement('p')
-    para1.textContent="this is the first paragraphe"
+    para1.textContent="Tacos de Lyon"
     para1.appendChild(image_menu1)
     const para2 = document.createElement('p')
-    para2.textContent='this is the second paragraphe'
+    para2.textContent='Burger King'
     para2.appendChild(image_menu2)
     const para3 = document.createElement('p')
-    para3.textContent="this is the third paragraphe"
+    para3.textContent="Escalppe de Boeuf"
     para3.appendChild(image_menu3)
     menu2.append(titre,para1,para2,para3)
 
