@@ -32,7 +32,7 @@ ul li{
     width: 100%;
 }
 .home{
-    height: 100vh;
+    height: 160vh;
     margin: auto;
     display: flex;
     width: 90%;
@@ -46,13 +46,14 @@ ul li{
 }
 .home div{
     border: 5px solid #c16a08;
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
     background-color: #ffc60b;
+    margin: auto;
 }
 .contact{
     border: 1px solid #c16a08;
@@ -106,4 +107,7 @@ ul li{
 .home h3, .menu h3, .contact h3{
     text-transform: uppercase;
     margin-bottom: 10px;
+}
+iframe{
+    width: 100%;
 }
