@@ -123,3 +123,8 @@ ul li:hover{
 .home:last-child{
     margin: auto;
 }
+footer > p > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
