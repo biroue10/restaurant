@@ -33,6 +33,7 @@ ul li{
 }
 .home{
     height: 160vh;
+    border: 1px solid #c16a08;
     margin: auto;
     display: flex;
     width: 90%;
