@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,9 @@
     background-color: #ffde73;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 ul{
     display: flex;
@@ -16,7 +21,6 @@ ul li{
     list-style: none;
     padding: 10px;
     text-transform: uppercase;
-    border: 1px solid white;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -30,9 +34,10 @@ ul li{
     color: black;
     height: 6vh;
     width: 100%;
+    border-top: 1px solid burlywood;
 }
 .home{
-    height: 160vh;
+    height: 120vh;
     margin: auto;
     display: flex;
     width: 90%;
@@ -52,7 +57,6 @@ ul li{
     background-color: #ffc60b;
 }
 .contact{
-    border: 1px solid #c16a08;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,7 +81,6 @@ ul li{
     flex-direction: column;
     width: 90%;
     margin: auto;
-    border: 1px solid #c16a08;
     border-radius: 10px;
     background-color: #ffde73;
     margin: 10px auto;
@@ -93,8 +96,10 @@ ul li{
     border-radius: 10px;
 }
 .home h1, .menu h1, .contact h1{
-    text-transform: uppercase;
     margin: 20px;
+    font-family: 'Tangerine', cursive;
+    text-transform: capitalize;
+    font-size: 4rem;
 }
 .home h3, .menu h3, .contact h3{
     text-transform: uppercase;
@@ -106,4 +111,11 @@ iframe{
 img{
     width: 100%;
     padding: 10px;
+}
+body {
+    background-color: #ffde73;
+}
+ul li:hover{
+    text-decoration: underline;
+
 }
