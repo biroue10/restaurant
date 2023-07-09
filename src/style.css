@@ -33,27 +33,23 @@ ul li{
 }
 .home{
     height: 160vh;
-    border: 1px solid #c16a08;
     margin: auto;
     display: flex;
     width: 90%;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: #ffde73;
 }
 .home div{
     width: 80%;
     text-align: center;
-    margin: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 10px;
     background-color: #ffc60b;
-    margin: auto;
 }
 .contact{
     border: 1px solid #c16a08;
